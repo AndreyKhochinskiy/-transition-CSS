@@ -1,0 +1,16 @@
+#elem {
+	border: 1px solid red;
+	font-size: medium;
+	color: red;
+	transition-duration: 2s;
+	transition-property: width, font-size;
+	height: 50px;
+	width: 200px;
+}
+#elem:hover {
+	width: 800px;
+	font-size: x-large;
+}
+
+
+

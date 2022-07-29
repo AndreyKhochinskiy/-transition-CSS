@@ -1,0 +1,18 @@
+#wrapper{
+	margin: 0px auto;
+	width: 500px;
+	height: 30px;
+	border: 1px solid red;
+}
+.elem{
+	background: red;
+	width: 0px;
+	height: 30px;
+	transition: all 3s steps(5, start);
+
+ }
+#wrapper:hover div{ 
+	width: 500px; 
+}
+
+

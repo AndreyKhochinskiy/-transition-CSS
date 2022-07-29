@@ -1,0 +1,15 @@
+#elem {
+	border: 1px solid red;
+	margin-left: 20px;
+	transition-duration: 2s;
+	transition-property: width, margin-left;
+	height: 50px;
+	width: 200px;
+}
+#elem:hover {
+	width: 600px;
+	margin-left: 80px;
+}
+
+
+

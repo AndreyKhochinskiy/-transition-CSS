@@ -1,0 +1,16 @@
+#elem input {
+	border: 1px solid black ;
+	height: 20px;
+	width: 120px;
+	transition-duration: 3s;
+	transition-property: width, box-shadow;
+}
+#elem input:focus {
+	width: 300px;
+	box-shadow: 0 0 3px blue;
+}
+
+
+
+
+

@@ -1,0 +1,25 @@
+.elem1 {
+	position: absolute;
+	left: 50px;
+	top: 8px;
+	height: 50px;
+	width: 1900px;
+	text-align: right;
+	transition-duration: 33s;
+	transition-property: text-align;
+	transition-timing-function: linear;
+}
+
+.elem2 {
+	border: 1px solid red;
+	height: 50px;
+	width: 400px;
+}
+
+.elem1 :hover {
+	text-align: left;
+}
+
+
+
+

@@ -1,0 +1,15 @@
+#elem {
+	border: 1px solid red;
+	transition-duration: 3s;
+	transition-property: width;
+	transition-delay: 3s;
+	height: 50px;
+	width: 200px;
+}
+#elem:hover {
+	width: 600px;
+}
+
+
+
+

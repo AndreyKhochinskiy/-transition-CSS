@@ -1,0 +1,23 @@
+#elem div{
+	background: white;
+	border: 1px solid red;
+	width: 200px;
+	height: 30px;
+	margin-bottom: 40px;
+	transition: all 2s ease-out;
+}
+#elem div:last-child{
+	margin-bottom: 0;
+}
+
+#elem{
+	padding: 40px;
+	width: 700px;
+	border: 1px solid green;
+}
+#elem:hover div{ 
+	width: 700px;
+}
+
+
+

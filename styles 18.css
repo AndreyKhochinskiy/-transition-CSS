@@ -1,0 +1,14 @@
+.elem{
+	border: 1px solid red;
+	width: 150px;
+	height: 50px;
+	margin: 200px auto;
+	transition: all 1s linear;
+	box-shadow: -100px 100px black, 100px -100px black;
+}
+ 
+.elem:hover { 
+	box-shadow: 100px 100px black, 100px 100px black; 
+}
+
+
